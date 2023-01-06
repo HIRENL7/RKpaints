@@ -32,7 +32,7 @@ const OurFeaturedService = () => {
                                             </div>
                                         </div>
                                         {/* hover show */}
-                                        <div className={`group-hover:translate-y-[-262px] text-[#FFFFFF] transition-all duration-300 ease-in-out absolute w-[500px] h-[260px] bg-[black]  rounded-xl text-center pt-[42px] px-[80px] `}>
+                                        <div className={`group-hover:translate-y-[-262px] text-[#FFFFFF] transition-all duration-300 ease-in-out absolute w-[500px] h-[260px] bg-[${bgcolor}]  rounded-xl text-center pt-[42px] px-[80px] `}>
                                             <p className=' text-[20px] font-sans leading-[27.28px] font-black tracking-[1%]  mb-[8px]  '>Professional Process</p><br />
                                             <p className='text-[13px] font-sans leading-[27.28px] font-semibold tracking-[3%]'>Suspendisse gravida nulla diet, eget sodas tellusSuspendisse gravida nulla diet, eget sodas tellusSuspendisse gravida nulla diet, eget sodas tellusSuspendisse gravida nulla diet, eget sodas tellus</p>
                                         </div>

@@ -5,7 +5,7 @@ const HomeNav = () => {
     //  const [showBar, setShowBar] = useState(false)
     return (
         <>
-
+ 
 
             <nav className="nav flex items-center justify-center lg:gap-[2%] flex-wrap h-[130px] md:gap-0  ">
                 <Link className="navbar-brand" to="/">

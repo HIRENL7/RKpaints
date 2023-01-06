@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.proteam:hover >.proteamcard{
+  opacity: 1;
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "id":"0",
+        "image":"reachus.png",
+        "title":"Reach Us"
+    },
+    {
+        "id":"1",
+        "image":"brush.png",
+        "title":"Site Inspection"
+    },
+    {
+        "id":"2",
+        "image":"paintbucket.png",
+        "title":"Validation of Wall"
+    }, 
+    {
+        "id":"3",
+        "image":"brushroll.png",
+        "title":"Approval & Execuion"
+    }
+]

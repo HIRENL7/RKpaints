@@ -1,0 +1,254 @@
+.nav-link {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #000000;
+
+
+}
+
+#navbarNav {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.unorderlist {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.unorderlist>li {
+    margin: 2%;
+}
+
+@media screen and (max-width:1024px) {
+    .unorderlist {
+        flex-direction: column;
+    }
+}
+
+.active {
+    animation-delay: 100s;
+    transform: translateY(-35px);
+    transition: all;
+    height: 100%;
+    color: #FFFFFF;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    animation-duration: 500s;    
+    background: #EE3347;
+    border-radius: 50px
+}
+
+/* mainfooter */
+.mainfooter {
+    background-image: url(C:\Users\lodha\OneDrive\Desktop\RK\rkpaints\public\redpatch.png);
+    color: #000000;
+
+}
+
+.whitepatch1 {
+    padding: 0%;
+    margin: -1%;
+    width: 75%;
+    position: absolute;
+    z-index: 3;
+}
+
+.smilyimage {
+    padding: 0%;
+    margin-left: 50%;
+    display: flex;
+
+    display: flex;
+    width: 46%;
+
+    justify-content: center;
+
+
+    position: absolute;
+
+    z-index: 4;
+    margin-top: -1%;
+
+}
+
+.footmid {
+    display: flex;
+    align-items: baseline;
+    margin: 10% 0%;
+    justify-content: center;
+
+
+}
+
+.footmid>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fb.insta,
+.yt {
+    color: white;
+    height: 3vh;
+    font-size: 31px;
+}
+
+.footermain {
+    background: #302a4a;
+    background: #EE3347;
+}
+
+.alltextfoot,
+.subscribe {
+    font-family: Nunito;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    padding: 9% 0%;
+}
+
+/* .contentoffoot{
+   
+} */
+
+
+.whitepatch11 {
+    position: relative;
+
+}
+
+@media screen and (max-width:1000px) {
+    .whitepatch11 {
+        position: relative;
+        top: -63px;
+        left: -62px;
+    }
+
+}
+
+.aa {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+
+}
+
+.footlist {
+    font-family: Nunito;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+}
+
+/* homesectionmain */
+.sliderimg {
+    background-image: url(C:\Users\lodha\OneDrive\Desktop\RK\rkpaints\public\screen1.png);
+}
+
+
+
+.splash {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 11rem;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+}
+
+.profe2 {
+    font-family: Montserrat;
+    font-size: 130px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 198px;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+}
+
+.paintserv {
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 53px;
+    letter-spacing: 0.485em;
+    text-align: left;
+
+
+}
+
+.homecard {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 19px;
+    margin: 8% 0%;
+}
+
+.maincard {
+    display: flex;
+    flex-direction: column;
+    padding: 7%;
+    height: 259px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardtitle {
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+    text-align: center;
+
+}
+
+.cardpara {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+}
+
+.painthome {
+    top: 3rem;
+    position: relative;
+    color: rgb(24, 37, 109);
+    display: flex;
+    justify-content: center;
+}
+
+.painthome>h1 {
+    font-family: Nunito;
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+}

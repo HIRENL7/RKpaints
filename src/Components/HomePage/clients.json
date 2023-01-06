@@ -1,0 +1,50 @@
+[
+    {
+        "id": "0",
+        "image": "procedure1.png",
+        "title": "Paint Spraying",
+        "description": "Suspendisse gravida nulla diet, eget sodas tellus",
+        "background": "purplecircle.png",
+        "bgcolor": "black"
+    },
+    {
+        "id": "1",
+        "image": "procedure2.png",
+        "title": "Wallpapering",
+        "description": "Suspendisse gravida nulla diet, eget sodas tellus",
+        "background": "yellowcircle.png",
+        "bgcolor": "#F5962A"
+    },
+    {
+        "id": "2",
+        "image": "procedure3.png",
+        "title": "Fire Protection",
+        "description": "Suspendisse gravida nulla diet, eget sodas tellus",
+        "background": "bluecircle.png",
+        "bgcolor": "#1ECBEA"
+    },
+    {
+        "id": "3",
+        "image": "procedure4.png",
+        "title": "Hygenic Coating",
+        "description": "Suspendisse gravida nulla diet, eget sodas tellus",
+        "background": "greencircle.png",
+        "bgcolor": "#1EC651"
+    },
+    {
+        "id": "4",
+        "image": "procedure3.png",
+        "title": "Dry Lining",
+        "description": "Suspendisse gravida nulla diet, eget sodas tellus",
+        "background": "pinkcircle.png",
+        "bgcolor": "#88206B"
+    },
+    {
+        "id": "5",
+        "image": "procedure1.png",
+        "title": "Fire Protection",
+        "description": "Suspendisse gravida nulla diet, eget sodas tellus",
+        "background": "redcircle.png",
+        "bgcolor": "#EE3347"
+    }
+]

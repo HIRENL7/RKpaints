@@ -1,7 +1,7 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 
 const BlogsGrid = () => {
-     // eslint-disable-next-line
+    // eslint-disable-next-line
     const [blogs, setBlogs] = useState([
         {
             id: 0,
@@ -42,12 +42,10 @@ const BlogsGrid = () => {
                                     <p className='pl-[44px] font-bold text-[18px] leading-[24.55px] font-[Nunito] tracking-[1%]'>{tips} <br /> {object}</p>
                                 </div>
                             </div>
-                    )
+                        )
 
                     })
                 }
-
-
             </div>
         </>
     )

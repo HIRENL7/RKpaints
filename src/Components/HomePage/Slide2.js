@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 const Slide2 = () => {
    
     return (
         <>
 
-            <div className="  container top-[9rem] absolute left-[20rem] flex flex-col text-left screenmain mt-[180px] " >
+            <div className={` container top-[9rem] absolute left-[20rem] flex flex-col text-left screenmain mt-[180px] `} >
                 <h1 className='mb-3 profe2'>Professional</h1>
                 <h6 className='paintserv'>Painting Services</h6>
                 <div className="flex mt-[40px] mb-[20px] ">
@@ -21,7 +21,6 @@ const Slide2 = () => {
                         <p className=''>GET STARTED NOW</p>
                     </button>
                 </div>
-
             </div>
             <img src="screen22.png" alt="" />
         </>

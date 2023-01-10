@@ -15,9 +15,7 @@ const ClientsDetail = () => {
                         </button>
                     </div>
                     {/* 2col grid */}
-
                     <div className="mx-2 flex justify-center items-center flex-wrap">
-                        {/* start of clients boxcol 1 */}
                         <div className="flex flex-col text-center text-white items-center ">
                             <div className=" py-4card bg-[#EE3347] rounded-[26px] h-[298px] w-[281px] flex justify-center items-center flex-col">
                                 <img className='p-2 h-[85px] w-[85px]' src="procedure1.png" alt="brush" />
@@ -43,14 +41,11 @@ const ClientsDetail = () => {
                                 <p className='p-2  text-[20px] tracking-[1%] leading-[27.28px] font-[Nunito] font-medium '>Satisfied Clients</p>
                             </div>
                         </div>
-                        
                     </div>
-
-
                 </div>
                 <div className="relative flex justify-center lg:top-[-313px]               ">
-                            <img className='transform h-34  lg:left-[161px]  xl:left-[161px]  left-[0px]   relative  transition duration-500 hover:scale-125' src="yellowdots.png" alt="" />
-                        </div>
+                    <img className='transform h-34  lg:left-[161px]  xl:left-[161px]  left-[0px]   relative  transition duration-500 hover:scale-125' src="yellowdots.png" alt="" />
+                </div>
 
             </div>
 

@@ -24,7 +24,6 @@ const slideimg = [
   }
 ]
 const Home = () => {
-
   // eslint-disable-next-line
   const [current, setCurrent] = useState(0);
   useEffect(() => {
@@ -36,13 +35,11 @@ const Home = () => {
       clearInterval(imageInterval);
     }
   }, [])
-
-
   return (
     <>
       <div className={`relative  `}>
-        {current === 0 ?  <Slide1/>:<Slide2/>}    
-        <div className='absolute '>       
+        {current === 0 ? <Slide1 /> : <Slide2 />}
+        <div className='absolute '>
         </div>
       </div>
       <div className='m-6'>
@@ -55,11 +52,6 @@ const Home = () => {
       <OurFeaturedService />
       <PinkPatch />
       <BlogsHome />
-
-
-      {/* <TailFooter/> */}
-
-
 
     </>
   )

@@ -7,7 +7,6 @@ const AfterCards = () => {
 
     return (
         <>
-            {/*w-[24rem] h-[24rem]  */}
             <div className=" mb-[5%] p-8 pr-0 max-w-full flex justify-end xl:mt-[5%] lg:mt-[16%] sm:mt-[32%]">
                 <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 w-[100%] relative">
                     <div className="mb-4 flex justify-center lg:justify-end">
